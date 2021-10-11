@@ -1,0 +1,16 @@
+PODS:
+  - BlocksKit (0.1.0)
+
+DEPENDENCIES:
+  - BlocksKit (from `../`)
+
+EXTERNAL SOURCES:
+  BlocksKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BlocksKit: 56abf29043f68c055c254fa567da171e6bcf429b
+
+PODFILE CHECKSUM: 401d84c23bcb76665561973cd97a7494ea438a30
+
+COCOAPODS: 1.10.1

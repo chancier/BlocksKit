@@ -26,9 +26,9 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		684C994D12D229CE8E1ED658 /* BlocksKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BlocksKit.podspec; path = ../BlocksKit.podspec; sourceTree = "<group>"; };
-		900B751BF0CEDBB03026819F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		966ED322345BFF1B33AEDF9F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		684C994D12D229CE8E1ED658 /* BlocksKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BlocksKit.podspec; path = ../BlocksKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		900B751BF0CEDBB03026819F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		966ED322345BFF1B33AEDF9F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B11613651902EC047E50C85F /* Pods_BlocksKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlocksKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBEBA7D58EA13BE5AD39BD0D /* Pods-BlocksKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlocksKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-BlocksKit_Tests/Pods-BlocksKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -114,7 +114,6 @@
 				EBEBA7D58EA13BE5AD39BD0D /* Pods-BlocksKit_Tests.debug.xcconfig */,
 				5F65BFDE179E4FDCD60F996D /* Pods-BlocksKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -160,6 +159,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
