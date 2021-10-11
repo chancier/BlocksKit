@@ -1,0 +1,6 @@
+use_frameworks!
+target 'BlocksKit_Tests' do
+  pod 'BlocksKit', :path => '../'
+  
+  
+end
